@@ -16,6 +16,18 @@ $(document).ready(function(){
 		}
 	});
 	
+	// Sample questions span
+	$('.sample-ques').click(function(){
+		span_ques = $(this).html()
+		
+		ques_html = "<div class='client-side-msg'>" + span_ques + "</div><div style='clear:both'></div>"
+		$('.messenger-body').append(ques_html)
+		
+		// get response and print on chat window
+		getResponse('hello I am your system')
+		$(".messenger-body").scrollTop(9000)
+	})
+	
 	
 	function getResponse(ques_text){
 		answer = "Automatic prolongation function is included in the contract; Either party (lessee and lessor) has the right to terminate the lease with no more than an insignificant penalty"

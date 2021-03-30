@@ -1,0 +1,119 @@
+body{
+	font-family: calibri;
+	color: #333;
+}
+
+.chat-container {
+	width: 1000px;
+	margin: 0px auto 10px;
+	padding: 15px;
+}
+
+.head-banner {
+	border-bottom: 3px solid #e0e0e0;
+}
+
+.head-banner h2 {
+	color: #333;
+	margin: 10px;
+}
+
+.messenger-box {
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+.messenger-head {
+	background: #075E54;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px 7px;
+	border-radius: 3px
+}
+
+.messenger-head img{
+	width: 36px;
+	height: 36px;
+	border: 1px solid #DCF8C6;
+	border-radius: 50%;
+}
+
+.messenger-head .bot-name{
+	position: relative;
+	top: -12px;
+	left: 10px;
+}
+
+.messenger-head .refresh{
+	float: right;
+	cursor: pointer;
+	position: relative;
+	top: 10px;
+}
+
+.messenger-head .refresh:hover {
+	opacity: 0.7
+}
+
+.messenger-body {
+	background: #efefef;
+	height: 400px;
+	overflow-y: scroll;
+}
+
+.bot-side-msg {
+	background: #fff;
+	padding: 10px;
+	margin: 10px 15px;
+	min-width: 400px;
+	max-width: 600px;
+	word-wrap: break-word;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+}
+
+.client-side-msg {
+	background: #DCF8C6;
+	padding: 10px;
+	margin: 10px 15px;
+	max-width: 600px;
+	word-wrap: break-word;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+	float: right;
+}
+
+.msg-tb {
+	width: 850px;
+	padding: 10px;
+	font-size: 14px;
+	margin: 0;
+	border: 1px solid #DCF8C6;
+}
+
+.msg-tb:focus {
+	border: 1px solid #333;
+	outline: none;
+}
+
+#msg-send-btn {
+	width: 118px;
+	padding: 11px;
+	background: #128C7E;
+	border: none;
+	color: #fff;
+	border: 1px solid 
+}
+
+.ans {
+	font-weight: bold;
+}
+
+.caret {
+	cursor: pointer;
+}
+
+.ans-para {
+	margin-top: 5px;
+}

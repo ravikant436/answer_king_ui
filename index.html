@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Answer-King Demo</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script src="https://kit.fontawesome.com/14c3933906.js" crossorigin="anonymous"></script>
+		
+	</head>
+	<body>
+		<div class="chat-container">
+			<div class="head-banner">
+				<h2>Answer King</h2>
+			</div>
+			<div class="messenger-box">
+				<div class="messenger-head">
+					<span><img src="bot.png" /></span>
+					<span class="bot-name">Ihr Einkommensteuerassistent</span>
+					<span id="refresh-btn" class="refresh"><i class="fas fa-sync-alt"></i></span>
+				</div>
+				<div class="messenger-body">
+					<div class="bot-side-msg">
+						Hallo! Ich bin dein Chatbot-Assistent. Wie kann ich dir heute helfen?
+					</div>
+				</div>
+				<div class="msg-tb-container">
+					<input type="text" id="msg-text" class="msg-tb" placeholder="Type your question and press send button" />
+					<input type="button" id="msg-send-btn" value="Send">
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</html>

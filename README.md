@@ -1,2 +1,2 @@
-# answer_king_ui
+# Answer King User Interface
 Answer King Application
